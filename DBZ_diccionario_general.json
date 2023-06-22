@@ -1,0 +1,434 @@
+{
+    "1": {
+        "Nombre": "Babidi",
+        "Raza": [
+            "Wizard"
+        ],
+        "Poder de pelea": 20,
+        "Poder de ataque": 1,
+        "Habilidad": [
+            "Mind Control",
+            "Summon Majins"
+        ]
+    },
+    "2": {
+        "Nombre": "Broly",
+        "Raza": [
+            "Saiyan"
+        ],
+        "Poder de pelea": 2000000,
+        "Poder de ataque": 300000,
+        "Habilidad": [
+            "Gigantic Meteor",
+            "Omega Blaster"
+        ]
+    },
+    "3": {
+        "Nombre": "Cooler",
+        "Raza": [
+            "Frieza's Race"
+        ],
+        "Poder de pelea": 600000,
+        "Poder de ataque": 500000,
+        "Habilidad": [
+            "Supernova",
+            "Death Beam"
+        ]
+    },
+    "4": {
+        "Nombre": "Pui Pui",
+        "Raza": [
+            "Alien"
+        ],
+        "Poder de pelea": 6000,
+        "Poder de ataque": 700,
+        "Habilidad": [
+            "Dimension Gate",
+            "Machinegun Punch"
+        ]
+    },
+    "5": {
+        "Nombre": "Spopovich",
+        "Raza": [
+            "Humano"
+        ],
+        "Poder de pelea": 1200,
+        "Poder de ataque": 300,
+        "Habilidad": [
+            "Flight",
+            "Energy Blast"
+        ]
+    },
+    "6": {
+        "Nombre": "Kaio-sama",
+        "Raza": [
+            "Shin-jin"
+        ],
+        "Poder de pelea": 50000,
+        "Poder de ataque": 2500,
+        "Habilidad": [
+            "Time Manipulation",
+            "Teleportation"
+        ]
+    },
+    "7": {
+        "Nombre": "Yakon",
+        "Raza": [
+            "Demon"
+        ],
+        "Poder de pelea": 8000,
+        "Poder de ataque": 1500,
+        "Habilidad": [
+            "Darkness Illusion",
+            "Devour Light"
+        ]
+    },
+    "8": {
+        "Nombre": "Yamu",
+        "Raza": [
+            "Humano"
+        ],
+        "Poder de pelea": 1300,
+        "Poder de ataque": 350,
+        "Habilidad": [
+            "Absorb Ki",
+            "Flight"
+        ]
+    },
+    "9": {
+        "Nombre": "Androide 19",
+        "Raza": [
+            "Androide"
+        ],
+        "Poder de pelea": 320,
+        "Poder de ataque": 400,
+        "Habilidad": [
+            "Energy Drain",
+            "Eye Laser"
+        ]
+    },
+    "10": {
+        "Nombre": "Androide 16",
+        "Raza": [
+            "Androide"
+        ],
+        "Poder de pelea": 2500,
+        "Poder de ataque": 4000,
+        "Habilidad": [
+            "Misiles",
+            "Explosión solar",
+            "Auto-reparaciín"
+        ]
+    },
+    "11": {
+        "Nombre": "Androide 17",
+        "Raza": [
+            "Androide",
+            "Humano"
+        ],
+        "Poder de pelea": 4000,
+        "Poder de ataque": 4200,
+        "Habilidad": [
+            "Barrera de energía",
+            "Ataque combinado",
+            "Explosión de ki"
+        ]
+    },
+    "12": {
+        "Nombre": "Androide 18",
+        "Raza": [
+            "Androide",
+            "Humano"
+        ],
+        "Poder de pelea": 3500,
+        "Poder de ataque": 3800,
+        "Habilidad": [
+            "Ki infinito",
+            "Garras afiladas",
+            "Destello de energía"
+        ]
+    },
+    "14": {
+        "Nombre": "Beerus",
+        "Raza": [
+            "Dios de la Destrucción"
+        ],
+        "Poder de pelea": 15000,
+        "Poder de ataque": 16000,
+        "Habilidad": [
+            "Sphere of Destruction",
+            "God of Destruction's Roar",
+            "Temporal Do-Over"
+        ]
+    },
+    "15": {
+        "Nombre": "Cell",
+        "Raza": [
+            "Artificial Life Form"
+        ],
+        "Poder de pelea": 900000,
+        "Poder de ataque": 100000,
+        "Habilidad": [
+            "Solar Kamehameha",
+            "Spirit Bomb"
+        ]
+    },
+    "16": {
+        "Nombre": "Chiaotzu",
+        "Raza": [
+            "Three-Eyed People"
+        ],
+        "Poder de pelea": 1000,
+        "Poder de ataque": 60,
+        "Habilidad": [
+            "Telekinesis"
+        ]
+    },
+    "17": {
+        "Nombre": "Dabura",
+        "Raza": [
+            "Rey Demonio"
+        ],
+        "Poder de pelea": 4500,
+        "Poder de ataque": 4200,
+        "Habilidad": [
+            "Control de la mente",
+            "Lanza de energía",
+            "Poderes oscuros"
+        ]
+    },
+    "18": {
+        "Nombre": "Goten",
+        "Raza": [
+            "Saiyan",
+            "Humano"
+        ],
+        "Poder de pelea": 3000,
+        "Poder de ataque": 2800,
+        "Habilidad": [
+            "Super Saiyan",
+            "Kamehameha",
+            "Tambor del Trueno"
+        ]
+    },
+    "19": {
+        "Nombre": "Gotenks",
+        "Raza": [
+            "Saiyan"
+        ],
+        "Poder de pelea": 8000,
+        "Poder de ataque": 7500,
+        "Habilidad": [
+            "Super Ghost Kamikaze Attack",
+            "Ataque rugiente",
+            "Super Saiyan 3"
+        ]
+    },
+    "20": {
+        "Nombre": "Hit",
+        "Raza": [
+            "Asesino"
+        ],
+        "Poder de pelea": 8000,
+        "Poder de ataque": 9000,
+        "Habilidad": [
+            "Time Skip",
+            "Icicle Lance",
+            "Flash Fist Crush"
+        ]
+    },
+    "21": {
+        "Nombre": "Kibito",
+        "Raza": [
+            "Shin-jin"
+        ],
+        "Poder de pelea": 2800,
+        "Poder de ataque": 2500,
+        "Habilidad": [
+            "Potara",
+            "Teletransportación",
+            "Sanación divina"
+        ]
+    },
+    "22": {
+        "Nombre": "Kid Buu",
+        "Raza": [
+            "Majin"
+        ],
+        "Poder de pelea": 9000,
+        "Poder de ataque": 9000,
+        "Habilidad": [
+            "Explosión de ki",
+            "Teletransportación",
+            "Ataque destructor"
+        ]
+    },
+    "23": {
+        "Nombre": "Krillin",
+        "Raza": [
+            "Humano"
+        ],
+        "Poder de pelea": 7500,
+        "Poder de ataque": 900,
+        "Habilidad": [
+            "Afterimage Technique",
+            "Kamehameha Wave"
+        ]
+    },
+    "24": {
+        "Nombre": "Majin Buu",
+        "Raza": [
+            "Majin"
+        ],
+        "Poder de pelea": 5000,
+        "Poder de ataque": 4800,
+        "Habilidad": [
+            "Regeneración",
+            "Ataque de chocolate",
+            "Barrera mágica"
+        ]
+    },
+    "25": {
+        "Nombre": "Mr. Satan",
+        "Raza": [
+            "Humano"
+        ],
+        "Poder de pelea": 120,
+        "Poder de ataque": 50,
+        "Habilidad": [
+            "Cadena de misiles",
+            "Superhuman Water",
+            "Explosión de smog"
+        ]
+    },
+    "26": {
+        "Nombre": "Piccolo",
+        "Raza": [
+            "Namek"
+        ],
+        "Poder de pelea": 3500,
+        "Poder de ataque": 3000,
+        "Habilidad": [
+            "Regeneración",
+            "Makankosappo",
+            "Barrera"
+        ]
+    },
+    "27": {
+        "Nombre": "Super Buu",
+        "Raza": [
+            "Majin"
+        ],
+        "Poder de pelea": 7000,
+        "Poder de ataque": 6800,
+        "Habilidad": [
+            "Regeneración",
+            "Ataque de chocolate",
+            "Barrera mágica"
+        ]
+    },
+    "28": {
+        "Nombre": "Supreme Kai",
+        "Raza": [
+            "Shin-jin"
+        ],
+        "Poder de pelea": 7000,
+        "Poder de ataque": 6000,
+        "Habilidad": [
+            "Potara",
+            "Teletransportación",
+            "Explosión de ki divino"
+        ]
+    },
+    "29": {
+        "Nombre": "Tien",
+        "Raza": [
+            "Three-Eyed People"
+        ],
+        "Poder de pelea": 9000,
+        "Poder de ataque": 980,
+        "Habilidad": [
+            "Dodon Ray",
+            "Solar Flare"
+        ]
+    },
+    "30": {
+        "Nombre": "Trunks",
+        "Raza": [
+            "Saiyan",
+            "Humano"
+        ],
+        "Poder de pelea": 5000,
+        "Poder de ataque": 5200,
+        "Habilidad": [
+            "Super Saiyan",
+            "Espada de energóa",
+            "Ataque del futuro"
+        ]
+    },
+    "31": {
+        "Nombre": "Trunks del futuro",
+        "Raza": [
+            "Saiyan"
+        ],
+        "Poder de pelea": 4800,
+        "Poder de ataque": 5000,
+        "Habilidad": [
+            "Super Saiyan 2",
+            "Espada del juicio",
+            "Ataque del dragón"
+        ]
+    },
+    "32": {
+        "Nombre": "Videl",
+        "Raza": [
+            "Humano"
+        ],
+        "Poder de pelea": 1500,
+        "Poder de ataque": 1000,
+        "Habilidad": [
+            "Gran saiyaman",
+            "Ataque del rayo",
+            "Patada giratoria"
+        ]
+    },
+    "33": {
+        "Nombre": "Whis",
+        "Raza": [
+            "Ángel"
+        ],
+        "Poder de pelea": 10000,
+        "Poder de ataque": 12000,
+        "Habilidad": [
+            "Time Manipulation",
+            "Warrior's Heart",
+            "Accelerated Healing"
+        ]
+    },
+    "34": {
+        "Nombre": "Yamcha",
+        "Raza": [
+            "Humano"
+        ],
+        "Poder de pelea": 1300,
+        "Poder de ataque": 1000,
+        "Habilidad": [
+            "Kamehameha",
+            "Lobo feroz",
+            "Puño del dragón"
+        ]
+    },
+    "35": {
+        "Nombre": "Goku",
+        "Raza": [
+            "Saiyan"
+        ],
+        "Poder de pelea": 500000,
+        "Poder de ataque": 10000,
+        "Habilidad": [
+            "Kamehameha",
+            "Genki Dama",
+            "Super Saiyan"
+        ]
+    }
+}
