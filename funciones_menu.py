@@ -42,7 +42,7 @@ from funciones_lectoras_y_buscadoras import *
 from funciones_actualizaciones import *
 from funciones_tarjeta_DBZ import ejecutar_menu
 from funcion_tarjetaDBZ_diccionario import ejecutar_diccionario_tarjetas
-import funciones_de_ordenamiento
+from funciones_de_ordenamiento import *
 
 def mostrar_menu():
     while True:
@@ -82,9 +82,7 @@ def mostrar_menu():
         elif opcion == "8":
             actualizar_personajes_saiyan()
         elif opcion == "9":
-            personajes_ordenados = funciones_de_ordenamiento.ordenar_personajes_por_atributo(diccionario_general, "Nombre", True)
-            for personaje in personajes_ordenados:
-                print(personaje)
+            ejecutar_ordenamiento()
         elif opcion == "10":
             # Mover la llamada a la función dentro de este bloque
             ejecutar_menu()

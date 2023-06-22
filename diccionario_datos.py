@@ -7,15 +7,15 @@ dato_diccionario = {}
 nombres_procesados = set()  # Conjunto para almacenar los nombres de los personajes procesados
 
 with open('DBZ.csv', 'r', encoding='utf-8-sig') as file:
-    reader = csv.reader(file)
+    lectura = csv.reader(file)
 
-    for row in reader:
-        id = int(row[0])
-        nombre = row[1]
-        raza = row[2]
-        ataque = int(row[3])
-        defensa = int(row[4])
-        habilidad = row[5]
+    for fila in lectura:
+        id = int(fila[0])
+        nombre = fila[1]
+        raza = fila[2]
+        ataque = int(fila[3])
+        defensa = int(fila[4])
+        habilidad = fila[5]
 
         # Normalizar los valores
         nombre_normalizado = normalizar_nombre(nombre)
@@ -53,21 +53,3 @@ with open('DBZ_diccionario_general.json', 'w', encoding='utf-8') as file:
     json.dump(diccionario_general, file, indent=4, ensure_ascii=False)
 
 ################################################################--################################################################
-
-
-
-
-
-
-
-
-# Convertir el diccionario a una cadena JSON con formato legible
-
-# # Imprimir el diccionario con formato
-# for id, datos in dato_diccionario.items():
-#     print(f"ID: {id}")
-#     for clave, valor in datos.items():
-#         print(f"{clave}: {valor}")
-#     print()  # Salto de línea entre cada ID
-
-# Eliminar la clave 'id' del diccionario y normalizar los datos

@@ -1,172 +1,172 @@
 {
     "Babidi": {
         "Raza": "Wizard",
-        "Promedio de Combate": 10.5,
+        "Promedio de Combate": 10,
         "Habilidad": "Mind Control, Summon Majins"
     },
     "Broly": {
         "Raza": "Saiyan",
-        "Promedio de Combate": 1150000.0,
+        "Promedio de Combate": 1150000,
         "Habilidad": "Gigantic Meteor, Omega Blaster"
     },
     "Cooler": {
         "Raza": "Frieza's Race",
-        "Promedio de Combate": 550000.0,
+        "Promedio de Combate": 550000,
         "Habilidad": "Supernova, Death Beam"
     },
     "Pui Pui": {
         "Raza": "Alien",
-        "Promedio de Combate": 3350.0,
+        "Promedio de Combate": 3350,
         "Habilidad": "Dimension Gate, Machinegun Punch"
     },
     "Spopovich": {
         "Raza": "Humano",
-        "Promedio de Combate": 750.0,
+        "Promedio de Combate": 750,
         "Habilidad": "Flight, Energy Blast"
     },
     "Kaio-sama": {
         "Raza": "Shin-jin",
-        "Promedio de Combate": 26250.0,
+        "Promedio de Combate": 26250,
         "Habilidad": "Time Manipulation, Teleportation"
     },
     "Yakon": {
         "Raza": "Demon",
-        "Promedio de Combate": 4750.0,
+        "Promedio de Combate": 4750,
         "Habilidad": "Darkness Illusion, Devour Light"
     },
     "Yamu": {
         "Raza": "Humano",
-        "Promedio de Combate": 825.0,
+        "Promedio de Combate": 825,
         "Habilidad": "Absorb Ki, Flight"
     },
     "Androide 19": {
         "Raza": "Androide",
-        "Promedio de Combate": 360.0,
+        "Promedio de Combate": 360,
         "Habilidad": "Energy Drain, Eye Laser"
     },
     "Androide 16": {
         "Raza": "Androide",
-        "Promedio de Combate": 3250.0,
+        "Promedio de Combate": 3250,
         "Habilidad": "Misiles, Explosión solar, Auto-reparaciín"
     },
     "Androide 17": {
         "Raza": "Androide, Humano",
-        "Promedio de Combate": 4100.0,
+        "Promedio de Combate": 4100,
         "Habilidad": "Barrera de energía, Ataque combinado, Explosión de ki"
     },
     "Androide 18": {
         "Raza": "Androide, Humano",
-        "Promedio de Combate": 3650.0,
+        "Promedio de Combate": 3650,
         "Habilidad": "Ki infinito, Garras afiladas, Destello de energía"
     },
     "Beerus": {
         "Raza": "Dios de la Destrucción",
-        "Promedio de Combate": 15500.0,
+        "Promedio de Combate": 15500,
         "Habilidad": "Sphere of Destruction, God of Destruction's Roar, Temporal Do-Over"
     },
     "Cell": {
         "Raza": "Artificial Life Form",
-        "Promedio de Combate": 500000.0,
+        "Promedio de Combate": 500000,
         "Habilidad": "Solar Kamehameha, Spirit Bomb"
     },
     "Chiaotzu": {
         "Raza": "Three-Eyed People",
-        "Promedio de Combate": 530.0,
+        "Promedio de Combate": 530,
         "Habilidad": "Telekinesis"
     },
     "Dabura": {
         "Raza": "Rey Demonio",
-        "Promedio de Combate": 4350.0,
+        "Promedio de Combate": 4350,
         "Habilidad": "Control de la mente, Lanza de energía, Poderes oscuros"
     },
     "Goten": {
         "Raza": "Saiyan, Humano",
-        "Promedio de Combate": 2900.0,
+        "Promedio de Combate": 2900,
         "Habilidad": "Super Saiyan, Kamehameha, Tambor del Trueno"
     },
     "Gotenks": {
         "Raza": "Saiyan",
-        "Promedio de Combate": 7750.0,
+        "Promedio de Combate": 7750,
         "Habilidad": "Super Ghost Kamikaze Attack, Ataque rugiente, Super Saiyan 3"
     },
     "Hit": {
         "Raza": "Asesino",
-        "Promedio de Combate": 8500.0,
+        "Promedio de Combate": 8500,
         "Habilidad": "Time Skip, Icicle Lance, Flash Fist Crush"
     },
     "Kibito": {
         "Raza": "Shin-jin",
-        "Promedio de Combate": 2650.0,
+        "Promedio de Combate": 2650,
         "Habilidad": "Potara, Teletransportación, Sanación divina"
     },
     "Kid Buu": {
         "Raza": "Majin",
-        "Promedio de Combate": 9000.0,
+        "Promedio de Combate": 9000,
         "Habilidad": "Explosión de ki, Teletransportación, Ataque destructor"
     },
     "Krillin": {
         "Raza": "Humano",
-        "Promedio de Combate": 4200.0,
+        "Promedio de Combate": 4200,
         "Habilidad": "Afterimage Technique, Kamehameha Wave"
     },
     "Majin Buu": {
         "Raza": "Majin",
-        "Promedio de Combate": 4900.0,
+        "Promedio de Combate": 4900,
         "Habilidad": "Regeneración, Ataque de chocolate, Barrera mágica"
     },
     "Mr. Satan": {
         "Raza": "Humano",
-        "Promedio de Combate": 85.0,
+        "Promedio de Combate": 85,
         "Habilidad": "Cadena de misiles, Superhuman Water, Explosión de smog"
     },
     "Piccolo": {
         "Raza": "Namek",
-        "Promedio de Combate": 3250.0,
+        "Promedio de Combate": 3250,
         "Habilidad": "Regeneración, Makankosappo, Barrera"
     },
     "Super Buu": {
         "Raza": "Majin",
-        "Promedio de Combate": 6900.0,
+        "Promedio de Combate": 6900,
         "Habilidad": "Regeneración, Ataque de chocolate, Barrera mágica"
     },
     "Supreme Kai": {
         "Raza": "Shin-jin",
-        "Promedio de Combate": 6500.0,
+        "Promedio de Combate": 6500,
         "Habilidad": "Potara, Teletransportación, Explosión de ki divino"
     },
     "Tien": {
         "Raza": "Three-Eyed People",
-        "Promedio de Combate": 4990.0,
+        "Promedio de Combate": 4990,
         "Habilidad": "Dodon Ray, Solar Flare"
     },
     "Trunks": {
         "Raza": "Saiyan, Humano",
-        "Promedio de Combate": 5100.0,
+        "Promedio de Combate": 5100,
         "Habilidad": "Super Saiyan, Espada de energóa, Ataque del futuro"
     },
     "Trunks del futuro": {
         "Raza": "Saiyan",
-        "Promedio de Combate": 4900.0,
+        "Promedio de Combate": 4900,
         "Habilidad": "Super Saiyan 2, Espada del juicio, Ataque del dragón"
     },
     "Videl": {
         "Raza": "Humano",
-        "Promedio de Combate": 1250.0,
+        "Promedio de Combate": 1250,
         "Habilidad": "Gran saiyaman, Ataque del rayo, Patada giratoria"
     },
     "Whis": {
         "Raza": "Ángel",
-        "Promedio de Combate": 11000.0,
+        "Promedio de Combate": 11000,
         "Habilidad": "Time Manipulation, Warrior's Heart, Accelerated Healing"
     },
     "Yamcha": {
         "Raza": "Humano",
-        "Promedio de Combate": 1150.0,
+        "Promedio de Combate": 1150,
         "Habilidad": "Kamehameha, Lobo feroz, Puño del dragón"
     },
     "Goku": {
         "Raza": "Saiyan",
-        "Promedio de Combate": 255000.0,
+        "Promedio de Combate": 255000,
         "Habilidad": "Kamehameha, Genki Dama, Super Saiyan"
     }
 }

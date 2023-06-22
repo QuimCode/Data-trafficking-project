@@ -35,16 +35,5 @@ def ejecutar_menu():
     # Cargar el diccionario de personajes desde el archivo
     diccionario_general = cargar_diccionario_general()
 
-    # Solicitar al usuario que ingrese el ID del personaje
-    id_personaje = input("Ingrese el ID del personaje: ")
-
-    # Obtener el personaje correspondiente al ID ingresado
-    personaje = diccionario_general.get(id_personaje)
-
-    # Verificar si se encontró un personaje con el ID ingresado
-    if personaje:
-        # Generar el código para el personaje
-        codigo = generar_codigo_personaje(id_personaje, personaje)
-        print(codigo)
-    else:
-        print("No se encontró un personaje con el ID ingresado.")
+    # Llamar a la función generar_codigo_personaje_menu con el diccionario cargado
+    generar_codigo_personaje_menu(diccionario_general)

@@ -6,8 +6,8 @@ with open('DBZ_diccionario_general.json', 'r', encoding='utf-8') as file:
 
 def generar_listado_personajes():
     # Solicitar la raza y habilidad al usuario
-    raza = input("Ingrese la raza buscada: ").lower()
-    habilidad_busqueda = input("Ingrese la habilidad buscada: ").lower()
+    raza = input("Ingrese la raza buscada: ")
+    habilidad_busqueda = input("Ingrese la habilidad buscada: ")
 
     if raza.isdigit():
         print("Error: La raza no puede ser un número. Por favor, ingrese un nombre válido.")
@@ -62,6 +62,7 @@ def leer_archivo_json():
         with open(nombre_archivo, 'r', encoding='utf-8') as file:
             personajes = json.load(file)
             for personaje in personajes:
-                print(personaje)
+                print(f"\n{personaje}")
+                print()
     except FileNotFoundError:
         print(f"No se encontró el archivo '{nombre_archivo}'. Verifique la raza y habilidad ingresadas, RECUERDE, deben ser las anteriormente buscadas.")

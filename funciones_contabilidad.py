@@ -1,4 +1,3 @@
-import csv
 from diccionario_datos import *
 
 def listar_cantidad_por_raza(diccionario):

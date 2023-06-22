@@ -3,14 +3,6 @@ from funciones_contabilidad import calcular_promedio_poder
 import csv
 import json
 
-def reemplazar_caracteres_especiales(texto):
-    # Reemplazar caracteres especiales
-    texto = texto.replace('\u00ed', 'í')
-    texto = texto.replace('\u00f3', 'ó')
-    # Agregar más reemplazos si es necesario
-
-    return texto
-
 def crear_diccionario_y_guardar():
     nuevo_diccionario = {}
     nombres_procesados = set()  # Conjunto para almacenar los nombres de los personajes procesados
@@ -38,11 +30,7 @@ def crear_diccionario_y_guardar():
                 nombres_procesados.add(nombre_normalizado)  # Agregar el nombre al conjunto de nombres procesados
 
             # Calcular el promedio de pelea y ataque
-            promedio_combate = calcular_promedio_poder(ataque, defensa)
-
-            # Reemplazar caracteres especiales en la raza y habilidad
-            raza_normalizada = [reemplazar_caracteres_especiales(r) for r in raza_normalizada]
-            habilidad_normalizada = [reemplazar_caracteres_especiales(h) for h in habilidad_normalizada]
+            promedio_combate = int(calcular_promedio_poder(ataque, defensa))
 
             # Guardar los datos normalizados en el diccionario
             nuevo_diccionario[nombre_normalizado] = {
