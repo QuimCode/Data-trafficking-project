@@ -31,3 +31,15 @@ Ganador: Goku ---&--- Perdedor: Androide 19
 
 Fecha: 2023-06-22 17:02:19
 Ganador: Cell ---&--- Perdedor: Kid Buu
+
+Fecha: 2023-06-22 17:07:41
+Ganador: Cell ---&--- Perdedor: Androide 19
+
+Fecha: 2023-06-22 17:49:56
+Ganador: Broly ---&--- Perdedor: Cell
+
+Fecha: 2023-06-22 17:56:12
+Ganador: Cell ---&--- Perdedor: Pui Pui
+
+Fecha: 2023-06-22 19:30:54
+Ganador: Super Buu ---&--- Perdedor: Piccolo

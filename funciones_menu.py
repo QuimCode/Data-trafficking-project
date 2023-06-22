@@ -1,13 +1,15 @@
 ##-------------------------------------------------------------------------------------------------------##
-
+from diccionario_datos import ejecutar_impresion_diccionario
 from funciones_contabilidad import *
-from diccionario_datos import *
 from funciones_juego import *
 from funciones_lectoras_y_buscadoras import *
 from funciones_actualizaciones import *
 from funciones_tarjeta_DBZ import ejecutar_menu
 from funcion_tarjetaDBZ_diccionario import ejecutar_diccionario_tarjetas
 from funciones_de_ordenamiento import *
+
+with open('DBZ_diccionario_general.json', 'r', encoding='utf-8') as file:
+    diccionario_general = json.load(file)
 
 def mostrar_menu():
     while True:
