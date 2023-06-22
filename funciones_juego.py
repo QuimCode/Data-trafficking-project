@@ -9,12 +9,12 @@ def jugar_batalla():
     personaje_usuario = input("Selecciona un personaje: ")
 
     if personaje_usuario not in diccionario_juego:
-        print("El personaje seleccionado no existe.")
+        print("El personaje seleccionado no existe, recuerde ingresar su nombre y no un ID o numero.")
         return
     
-    if personaje_usuario.isdigit():
-        print("Error: La raza no puede ser un número. Por favor, ingrese un nombre válido.")
-        return
+    # if personaje_usuario.isdigit():
+    #     print("Error: La raza no puede ser un número. Por favor, ingrese un nombre válido.")
+    #     return
 
     oponente = random.choice(list(diccionario_juego.keys()))
 

@@ -1,21 +1,20 @@
 import json
 import csv
 
-# Importar el diccionario desde el archivo JSON
+
 with open('DBZ_diccionario_general.json', 'r', encoding='utf-8') as file:
     diccionario_general = json.load(file)
 
 def actualizar_personajes_saiyan():
-    # Identificar los personajes Saiyan y actualizar sus atributos
+
     personajes_saiyan_actualizados = []
-    for personaje_id, personaje in diccionario_general.items():
+    for personaje in diccionario_general.items():
         if 'Saiyan' in personaje['Raza']:
             personaje['Poder de pelea'] = int(personaje['Poder de pelea'] * 1.5)
             personaje['Poder de ataque'] = int(personaje['Poder de ataque'] * 1.7)
             personaje['Habilidad'].append('Transformación nivel dios')
             personajes_saiyan_actualizados.append(personaje)
 
-    # Guardar los personajes Saiyan actualizados en un archivo CSV
     nombre_archivo = 'Saiyan_Actualizados.csv'
     with open(nombre_archivo, 'w', encoding='utf-8', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=['Nombre', 'Raza', 'Poder de pelea', 'Poder de ataque', 'Habilidad'])

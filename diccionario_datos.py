@@ -4,7 +4,7 @@ from funciones_normalizadoras import *
 from funciones_contabilidad import *
 
 dato_diccionario = {}
-nombres_procesados = set()  # Conjunto para almacenar los nombres de los personajes procesados
+nombres_procesados = set()
 
 with open('DBZ.csv', 'r', encoding='utf-8-sig') as file:
     lectura = csv.reader(file)
@@ -17,18 +17,15 @@ with open('DBZ.csv', 'r', encoding='utf-8-sig') as file:
         defensa = int(fila[4])
         habilidad = fila[5]
 
-        # Normalizar los valores
         nombre_normalizado = normalizar_nombre(nombre)
         raza_normalizada = normalizar_raza(raza)
         habilidad_normalizada = normalizar_habilidad(habilidad)
 
-        # Verificar si el nombre ya ha sido procesado (eliminacion de repeticion)
         if nombre_normalizado in nombres_procesados:
-            continue  # Saltar a la siguiente iteración si el nombre está duplicado
+            continue  
         else:
-            nombres_procesados.add(nombre_normalizado)  # Agregar el nombre al conjunto de nombres procesados
+            nombres_procesados.add(nombre_normalizado) 
 
-        # Guardar los datos normalizados en el diccionario
         dato_diccionario[id] = {
             "Nombre": nombre_normalizado,
             "Raza": raza_normalizada,
@@ -37,7 +34,7 @@ with open('DBZ.csv', 'r', encoding='utf-8-sig') as file:
             "Habilidad": habilidad_normalizada
         }
 
-# Guardar los datos en el diccionario por ID
+
 diccionario_general = {}
 for id, personaje in dato_diccionario.items():
     diccionario_general[id] = {
@@ -48,7 +45,7 @@ for id, personaje in dato_diccionario.items():
         "Habilidad": personaje["Habilidad"]
     }
 
-# Guardar el diccionario en un archivo JSON
+
 with open('DBZ_diccionario_general.json', 'w', encoding='utf-8') as file:
     json.dump(diccionario_general, file, indent=4, ensure_ascii=False)
 

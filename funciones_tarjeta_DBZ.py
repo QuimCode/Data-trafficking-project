@@ -19,7 +19,7 @@ def generar_codigo_personaje(personaje_id, personaje):
     valor_maximo = max(personaje["Poder de ataque"], personaje["Poder de pelea"])
     id_personaje = str(personaje_id).zfill(9)
 
-    codigo = f"\n{nombre[0]}-{ganador}-{valor_maximo}-{id_personaje}\n"
+    codigo = f"{nombre[0]}-{ganador}-{valor_maximo}-{id_personaje}"
     return codigo
 
 def generar_codigo_personaje_menu(diccionario):
@@ -27,13 +27,11 @@ def generar_codigo_personaje_menu(diccionario):
     personaje = diccionario.get(id_personaje)
     if personaje:
         codigo = generar_codigo_personaje(id_personaje, personaje)
-        print(codigo)
+        print(f"\n{codigo}\n")
     else:
         print("No se encontró un personaje con el ID ingresado.")
 
 def ejecutar_menu():
-    # Cargar el diccionario de personajes desde el archivo
     diccionario_general = cargar_diccionario_general()
 
-    # Llamar a la función generar_codigo_personaje_menu con el diccionario cargado
     generar_codigo_personaje_menu(diccionario_general)
