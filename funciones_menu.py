@@ -27,11 +27,7 @@ def mostrar_menu():
         opcion = input("Ingrese el número de opción: ")
 
         if opcion == "1":
-            for id, datos in diccionario_general.items():
-                print(f"ID: {id}")
-                for clave, valor in datos.items():
-                    print(f"{clave}: {valor}")
-                print()
+            ejecutar_impresion_diccionario(diccionario_general)
         elif opcion == "2":
             listar_cantidad_por_raza(diccionario_general)
         elif opcion == "3":

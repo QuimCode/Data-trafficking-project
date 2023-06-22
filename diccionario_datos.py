@@ -49,4 +49,11 @@ for id, personaje in dato_diccionario.items():
 with open('DBZ_diccionario_general.json', 'w', encoding='utf-8') as file:
     json.dump(diccionario_general, file, indent=4, ensure_ascii=False)
 
+def ejecutar_impresion_diccionario(diccionario):
+        for id, datos in diccionario.items():
+            print(f"ID: {id}")
+            for clave, valor in datos.items():
+                print(f"{clave}: {valor}")
+            print()
+
 ################################################################--################################################################

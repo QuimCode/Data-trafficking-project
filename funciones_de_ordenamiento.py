@@ -13,7 +13,7 @@ def ordenar_personajes(diccionario_personajes):
     while True:
         ascendente_input = input("¿Desea ordenar de forma ascendente? (True/False): ")
         if ascendente_input.lower() in ['true', 'false']:
-            ascendente = ascendente_input.lower() == "true"
+            ascendente = ascendente_input.lower() == 'true'  # Convertir a booleano
             break
         else:
             print("¡Entrada inválida! Por favor, ingrese 'True' o 'False'.")
