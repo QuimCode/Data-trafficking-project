@@ -1,3 +1,6 @@
-# ParcialUTN_QuimeyFontan_RecuperatorioLabo_DIV-B_2023
-![Logo de mi proyecto](Presentación sin título.jpg)
- Recuperatorio de laboratorio de Quimey Alejo Fontan, DNI 42150214
+# Parcial UTN - Quimey Fontan - Recuperatorio Laboratorio - DIV-B 2023
+
+![Logo de mi proyecto](Presentación Quimey.jpg)
+
+## Descripción
+Este repositorio contiene el proyecto correspondiente al recuperatorio de laboratorio de Quimey Alejo Fontan, para la asignatura de Laboratorio en la UTN.
